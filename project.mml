@@ -6,11 +6,11 @@
     45.1143
   ],
   "center": [
-    1.4062,
-    43.5804,
-    5
+    1.4007,
+    43.6262,
+    8
   ],
-  "format": "png",
+  "format": "png8",
   "interactivity": false,
   "minzoom": 1,
   "maxzoom": 20,
