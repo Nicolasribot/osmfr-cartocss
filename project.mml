@@ -18,6 +18,7 @@
   "Stylesheet": [
     "style.mss",
     "water.mss",
+    "shapefiles.mss",
     "water-features.mss",
     "other.mss",
     "placenames.mss",
