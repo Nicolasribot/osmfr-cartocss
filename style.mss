@@ -1,7 +1,9 @@
+/*
 Map {
   background-color: @water-color;
   buffer-size: 256;
 }
+*/
 
 @book-fonts: "DejaVu Sans Book", "Unifont Medium";
 @bold-fonts: "DejaVu Sans Bold", "Unifont Medium";
