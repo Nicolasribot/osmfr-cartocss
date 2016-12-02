@@ -158,48 +158,6 @@
   }
 
 
-  [amenity = 'bus_stop']::amenity,
-  [highway = 'bus_stop']::highway {
-    [zoom >= 16] {
-      point-file: url('symbols/bus_stop_small.png');
-      point-placement: interior;
-    }
-    [zoom >= 17] {
-    	[type_ratp = 'bus'],[operator='RATP'],[l_operator='RATP'] {
-   	 		point-file: url('symbols/fr/logo-ratp-bus.svg');
-   	 		point-transform: 'scale(0.04)';
-      	}
- 		[l_operator = 'TCL'],[network='TCL']{
-    		[l_ref1="C"] {point-file: url('symbols/fr/tcl-c.png');}
-    		point-file: url('symbols/fr/tcl-bus.png');
-   		}
- 		[l_operator = 'STAR']{
-    		point-file: url('symbols/fr/rennes_bus.png');
-    		point-transform: "scale(0.5)";
-   		}
- 		[operator = 'Viacités'],
- 		[l_operator = 'Viacités']{
-    		point-file: url('symbols/fr/Twisto_Logo.png');
-   		}
-		[operator = 'Optymo'],
-		[l_operator = 'Optymo'],
-		[network = 'Optymo']{
-			point-file: url('symbols/fr/bus-belfort-optymo.png');
-		}
-		point-file: url('symbols/bus_stop.svg');
-    }
-    [zoom >= 19] {
-      text-name: "[name]";
-      text-face-name: @book-fonts;
-      text-size: 9;
-      text-fill: #66f;
-      text-dy: 10;
-      text-halo-radius: 1;
-      text-wrap-width: 0;
-      text-placement: interior;
-    }
-  }
-
   [amenity = 'bus_station'][zoom >= 16]::amenity {
     [zoom >= 17] {
     	[type_ratp = 'bus'],[operator='RATP'],[l_operator='RATP'] {

@@ -128,7 +128,6 @@
       [zoom >= 12] { text-name: "[name]"; }
       text-size: 11;
       b/text-size: 11;
-      b/text-placements: "N,11,10,9";
     }
     [zoom >= 14] {
       text-face-name: @oblique-fonts;
@@ -138,7 +137,6 @@
       b/text-face-name: @oblique-fonts;
       b/text-name: "[nom]";
       b/text-size: 14;
-      b/text-placements: "N,14,12,10";
       b/text-fill: #777777;
     }
   }
