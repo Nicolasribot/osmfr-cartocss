@@ -5,13 +5,6 @@
     line-join: round;
     line-cap: round;
   }
-  [zoom >= 15] {
-    text-name: "[name]";
-    text-halo-radius: 1;
-    text-fill: #222;
-    text-size: 8;
-    text-face-name: @book-fonts;
-  }
 }
 
 #marinas-area {
