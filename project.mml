@@ -2474,7 +2474,7 @@
   ],
   "scale": 1,
   "metatile": 8,
-  "name": "OpenStreetMap France Labels Only Nico",
+  "name": "OpenStreetMap France Labels Only Nico 2",
   "description": "OSM-FR styling.\nNeeds osm2pgsql in slim mode to get planet_osm_rels tables",
   "attribution": ""
 }
